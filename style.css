@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+div,section, span,ul,li,a,header {
+    box-sizing: border-box;
+}
+div {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+html {
+    scroll-behavior: smoth;
+}
+/* reset css */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 995;
+    width: 100%;
+   
+}
+header .name {
+    /* width: 30%;
+    height: 45%; */
+    border-radius: 10px;
+    color: blanchedalmond;
+    background-color: #000;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px 0;
+    z-index: 999;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    padding: 0 3px;
+}
+#menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+ul#menu li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #009688;
+    transition: 00.5s;
+}
+ul#menu li:hover::after{
+    width: 100%;
+}
+
+#home {
+    background-color: crimson;
+    
+}
+#about {
+    background-color: coral;
+}
+#product {
+    background-color: #8200ac;
+}
+#price {
+    background-color: #0047bd;
+}
+#contact {
+   background-color: #00ab38; 
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.para{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.para2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#contact>a{
+    width: 200px;
+    height: 30px;
+    padding: 4px;
+    background-color: #28559a;
+    text-decoration: none;
+    border-radius: 4px;  
+    font-weight: bolder;
+    color: white; 
+   
+}
+#contact .btn2{
+    width: 260px;
+    height: 30px;
+    padding: 4px;
+    background-color: #28559a;
+    text-decoration: none;
+    border-radius: 4px;  
+    font-weight: bolder;
+    color: white;  
+}
+#home img{
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-radius: 10px;
+
+}
